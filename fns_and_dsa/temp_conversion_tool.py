@@ -16,3 +16,5 @@ if temp_unit == "F":
     print(f"{temp}°{temp_unit} is {convert_to_celsius(temp)}°C")
 elif temp_unit == "C":
     print(f"{temp}°{temp_unit} is {convert_to_fahrenheit(temp)}°F")
+else:
+    print("Invalid temperature. please enter a numeric value")
