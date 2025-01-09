@@ -21,6 +21,6 @@ if temp.isnumeric():
         print(f"{temp}°{temp_unit} is {convert_to_fahrenheit(temp)}°F")
 
     else:
-        print("Invalid temperature. please enter unit of temparature.")
+        print("Invalid temperature. Please enter unit of temparature.")
 else:
-    print("Invalid temperature. please enter a numeric value.")
+    print("Invalid temperature. Please enter a numeric value.")
