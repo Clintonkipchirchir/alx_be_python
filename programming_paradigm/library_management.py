@@ -8,6 +8,7 @@ class Book:
         pass
 
 class Library(Book):
+   
     def __init__(self):
         self.__books = []
     
@@ -18,12 +19,8 @@ class Library(Book):
         self.__books.remove(title)
 
     def return_book(self, title):
-        pass
+        self.__books = []
 
     def list_available_books(self):
-        return self.__books
+        self.__books = []
     
-
-
-library = Library
-library.list_available_books()
