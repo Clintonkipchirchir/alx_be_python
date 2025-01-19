@@ -13,9 +13,11 @@ class Library(Book):
         self.__books = []
     
     def add_book(self):
+        self.__books = []
         self.__books.append(Book)
     
     def check_out_book(self, title):
+        self.__books = []
         self.__books.remove(title)
 
     def return_book(self, title):
