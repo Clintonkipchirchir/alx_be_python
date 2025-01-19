@@ -3,6 +3,7 @@ class Book:
         self.title = title
         self.author = authour
         self.___is_checked_out = True
+        self.__books = []
     def return_book(self):
         pass
 
