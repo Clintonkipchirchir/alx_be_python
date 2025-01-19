@@ -5,7 +5,7 @@ class Book:
         self.___is_checked_out = True
 
 class Library(Book):
-    def __init__(self, ):
+    def __init__(self, title, authour, books):
         super().__init__(title, authour)
         self.__books = []
     
@@ -22,6 +22,6 @@ class Library(Book):
         return self.__books
     
 
+
 library = Library
-library.add_book(Book("Brave New World", "Aldous Huxley"))
-library.add_book(Book("1984", "George Orwell"))
+library.list_available_books()
